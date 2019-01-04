@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 const dotenv = require('dotenv').config()
 
 // Initialize connection to database
-const dbUrl = 'mongodb+srv://',
+const dbUrl = 'mongodb+srv://'
         + process.env.DB_USER + ':'
         + process.env.DB_PASS + '@'
         + process.env.DB_HOST + '/'
